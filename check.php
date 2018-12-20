@@ -1,6 +1,6 @@
 <?php
 $link = mysqli_connect("localhost", "z96875if_mybb","WXZuEGJvYN");
-$database = mysqli_select_db($link, "free15.beget.com/phpMyAdmin");
+$database = mysqli_select_db($link, "free15.beget.com");
 
 $user = $_GET['username'];
 $password = $_GET['password'];
